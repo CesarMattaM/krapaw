@@ -18,9 +18,9 @@ const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
 const weapons = [
   { name: 'Water with ice', power: 5 },
-  { name: 'lemon tea', power: 30 },
-  { name: 'green tea', power: 50 },
-  { name: 'chrysanthemum tea', power: 100 }
+  { name: 'Lemon tea', power: 30 },
+  { name: 'Green tea', power: 50 },
+  { name: 'Chrysanthemum tea', power: 100 }
 ];
 const monsters = [
   {
@@ -137,11 +137,11 @@ function buyWeapon() {
       currentWeapon++;
       goldText.innerText = gold;
       let newWeapon = weapons[currentWeapon].name;
-      text.innerText = "You now have a " + newWeapon + ".";
+      text.innerText = "You now have " + newWeapon + ".";
       inventory.push(newWeapon);
-      text.innerText += " In your inventory you have: " + inventory;
+      text.innerText += " In your inventory you have the following drinks: " + inventory;
     } else {
-      text.innerText = "You do not have enough baht to buy a drink.";
+      text.innerText = "You do not have enough baht to buy a more powerful drink.";
     }
   } else {
     text.innerText = "You already have the most powerful drink!";
