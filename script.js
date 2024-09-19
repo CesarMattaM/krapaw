@@ -75,7 +75,7 @@ const locations = [
     name: "lose",
     "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
     "button functions": [restart, restart, restart],
-    text: "The food was too spicy. You passed out and died. &#x2620;"
+    text: "The food was too spicy. You passed out and died (of shame). You're back at Suvarnabhumi Airport &#x2620;"
   },
   { 
     name: "win", 
