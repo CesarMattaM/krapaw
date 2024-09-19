@@ -68,14 +68,14 @@ const locations = [
     name: "Succeeding to finish spicy dish",
     "button text": ["Go to town square", "Go to town square", "Go to town square"],
     "button functions": [goTown, goTown, goTown],
-    text: 'You finish the spicy dish. Your tongue is burning but your heart content. You gain experience and some baht.'
+    text: 'You finish the spicy dish. Your tongue is burning but your heart is content. You gain experience and some baht.'
   },
 
   {
     name: "lose",
     "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
     "button functions": [restart, restart, restart],
-    text: "The food was too spicy. You passed out and die. &#x2620;"
+    text: "The food was too spicy. You passed out and died. &#x2620;"
   },
   { 
     name: "win", 
